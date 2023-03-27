@@ -49,7 +49,7 @@ export const AttachmentsList = ({ filesArray, isLink = false }) => {
       <Link
         isExternal
         key={index}
-        href={`${import.meta.env.REACT_APP_ROOT_ENDPOINT}${file.url}`}
+        href={`${import.meta.env.VITE_ROOT_ENDPOINT}${file.url}`}
       >
         <IconButton
           variant="unstyled"
