@@ -124,7 +124,7 @@ const UserTable = ({ data }) => {
         <Modal isOpen={isOpenEdit} onClose={onCloseEdit}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Edit Serving One’s Details</ModalHeader>
+            <ModalHeader>Edit User’s Details</ModalHeader>
             <ModalCloseButton />
             <UserForm data={originalRowData} onClose={onCloseEdit} />
           </ModalContent>

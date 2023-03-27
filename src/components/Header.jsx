@@ -62,11 +62,11 @@ const Header = () => {
 
   let LinkItems = [
     { linkTitle: "Events", href: "/events" },
-    { linkTitle: "Saints", href: "/participants" },
+    { linkTitle: "Participants", href: "/participants" },
   ];
 
   if (currentUser?.isAdmin) {
-    LinkItems = [...LinkItems, { linkTitle: "Serving One", href: "/users" }];
+    LinkItems = [...LinkItems, { linkTitle: "Users", href: "/users" }];
   }
 
   const UserMenu = () => {

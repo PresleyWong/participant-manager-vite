@@ -33,7 +33,7 @@ const Users = () => {
         <Modal isOpen={isOpenNew} onClose={onCloseNew}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>New Serving One</ModalHeader>
+            <ModalHeader>New User</ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
               <UserForm createNew={true} onClose={onCloseNew} />
@@ -44,7 +44,7 @@ const Users = () => {
         <Stack direction="row" mt={"1rem"} justify={"flex-start"} width="100%">
           {currentUser.isAdmin && (
             <Button size="sm" variant="primary" onClick={onOpenNew}>
-              Add New Serving One
+              Add New User
             </Button>
           )}
         </Stack>

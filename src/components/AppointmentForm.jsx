@@ -57,7 +57,7 @@ const AppointmentForm = ({ data, onClose }) => {
       <Modal isOpen={isOpenParticipant} onClose={onCloseParticipant}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Edit Saint's Details</ModalHeader>
+          <ModalHeader>Edit Participant's Details</ModalHeader>
           <ModalCloseButton />
           <ParticipantForm data={data} onClose={onCloseParticipant} />
         </ModalContent>
@@ -92,7 +92,7 @@ const AppointmentForm = ({ data, onClose }) => {
               </ModalBody>
               <ModalFooter>
                 <Button mr="4" onClick={onOpenParticipant} variant="secondary">
-                  Edit Saint's Details
+                  Edit Participant's Details
                 </Button>
 
                 <Button
