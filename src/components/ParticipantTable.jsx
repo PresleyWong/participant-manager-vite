@@ -132,7 +132,7 @@ const ParticipantTable = ({ data }) => {
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Edit Saint's Details</ModalHeader>
+            <ModalHeader>Edit Participant's Details</ModalHeader>
             <ModalCloseButton />
             <ParticipantForm data={originalRowData} onClose={onClose} />
           </ModalContent>

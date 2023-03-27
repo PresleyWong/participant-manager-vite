@@ -256,13 +256,13 @@ const SearchResults = ({
   }
 
   if (isFetching) {
-    return <div className="text-hint">Fetching saints...</div>;
+    return <div className="text-hint">Fetching participants...</div>;
   }
 
   if (results.length === 0 && searchTerm.length > 0) {
     return (
       <>
-        <div className="text-hint">No saints found</div>
+        <div className="text-hint">No Participants found</div>
         <AddParticipantButton />
       </>
     );
@@ -313,7 +313,7 @@ const ParticipantSearch = ({
         />
         <Input
           type="tel"
-          placeholder="Search saints"
+          placeholder="Search participants"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />

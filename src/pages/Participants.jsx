@@ -30,7 +30,7 @@ export const AddParticipantButton = () => {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>New Saint</ModalHeader>
+          <ModalHeader>New Participant</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
             <ParticipantForm createNew={true} onClose={onClose} />
@@ -39,7 +39,7 @@ export const AddParticipantButton = () => {
       </Modal>
 
       <Button size="sm" variant="primary" onClick={onOpen}>
-        Add New Saint
+        Add New Participant
       </Button>
     </>
   );
